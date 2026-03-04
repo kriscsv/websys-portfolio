@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio & Blog Repository</title>
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Google Sans', sans-serif;
+      font-weight: 300;
+      background: #fff;
+      color: #111;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      padding: 50px 60px;
+    }
+    h1 {
+      font-size: 48px;
+      font-weight: 300;
+      margin-bottom: 8px;
+    }
+    p.subtitle {
+      font-size: 16px;
+      color: #888;
+      margin-bottom: 60px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+    .card {
+      border: 1px solid #ccc;
+      padding: 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      text-decoration: none;
+      color: #111;
+    }
+    .card:hover {
+    background: #f5f5f5;
+    }
+    .card .name {
+      font-size: 13px;
+      color: #888;
+      text-transform: uppercase;
+    }
+    .card h2 {
+      font-size: 26px;
+      font-weight: 300;
+    }
+    .card p {
+      font-size: 14px;
+      color: #888;
+    }
+  </style>
+
+</head>
+<body>
+
+  <h1>Laboratory Activity</h1>
+  <p class="subtitle">Our Student Portfolio and Daily Blog for Web Systems and Technology.</p>
+
+  <div class="grid">
+
+     <!-- Chloe's Portfolio -->
+    <a href="chloe-portfolio.html" class="card">
+      <span class="name">Bucay, Chloe</span>
+      <h2>Portfolio</h2>
+      <p>Visit Chloe's Portfolio here.</p>
+    </a>
+
+    <!--Kris' Portfolio-->
+    <a href="kris-portfolio.html" class="card">
+      <span class="name">Fortin, Kris Angel</span>
+      <h2>Portfolio</h2>
+      <p>Visit Angel's portfolio here.</p>
+    </a>
+   
+
+    <!--Our Shared Blog-->
+    <a href="#" class="card disabled">
+      <span class="name">Bucay & Fortin</span>
+      <h2>Blog</h2>
+      <p>Visit our daily blog here.</p>
+    </a>
+
+  </div>
+
+</body>
+</html>
