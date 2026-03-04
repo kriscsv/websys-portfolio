@@ -16,7 +16,7 @@ body{
   font-weight: 300;
   font-size: 18px;
   color: #111;
-  background: #fff;
+  background: #ffffff;
 }
 a{ color: #111; text-decoration: underline; }
 em { font-style: italic; }
@@ -185,9 +185,14 @@ nav {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+  display: flex;
+  align-items: flex-start;
+  padding: 10px 0;
+  gap: 5px;
 }
 .pub-grid img {
-  height: 300px;
+  height: 315px;
   width: auto;
-  display: block;
+  flex-grow: 1;
+  object-fit: cover;
 }
